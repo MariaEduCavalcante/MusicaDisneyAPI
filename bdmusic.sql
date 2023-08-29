@@ -132,3 +132,6 @@ insert into tbFavorites(IdFavorites, LastUPDATE)
     (3,curdate()),
     (4,curdate()),
     (5,curdate());
+    
+CREATE USER 'disney'@'localhost' IDENTIFIED WITH mysql_native_password BY '123';
+GRANT ALL PRIVILEGES ON dbMusicaDisney.* TO 'disney'@'localhost' WITH GRANT OPTION;
