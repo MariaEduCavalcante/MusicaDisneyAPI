@@ -4,6 +4,9 @@ API desenvolvida para consulta de músicas e filmes da Disney.
 
 [Vídeo de Funcionamento da API](https://youtu.be/zNFA9GSxQag)
 
+* Execução
+  
+Executar o script do banco de dados no MySql e após isso, executar o projeto:
 
 ***
 
