@@ -6,7 +6,9 @@ API desenvolvida para consulta de músicas e filmes da Disney.
 
 * Execução
   
-Executar o script do banco de dados no MySql e após isso, executar o projeto:
+Executar o script do banco de dados no MySql e após isso, executar o projeto pelo caminho: 
+
+MusicaDisneyAPI>MusicDisneyAPI>MusicDisneyAPI.sln
 
 ***
 
