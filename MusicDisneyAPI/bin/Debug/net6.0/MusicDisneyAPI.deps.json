@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "MusicDisneyAPI/1.0.0": {
         "dependencies": {
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.5",
           "MySql.Data": "8.1.0",
           "NetCoreAPIMySQL.Data": "1.0.0",
           "NetCoreAPIMySQL.Model": "1.0.0",
@@ -73,6 +74,7 @@
           }
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.5": {},
       "Microsoft.Win32.SystemEvents/4.7.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0"
@@ -400,6 +402,7 @@
       "NetCoreAPIMySQL.Data/1.0.0": {
         "dependencies": {
           "Dapper": "2.0.151",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.5",
           "MySql.Data": "8.1.0",
           "NetCoreAPIMySQL.Model": "1.0.0"
         },
@@ -408,6 +411,9 @@
         }
       },
       "NetCoreAPIMySQL.Model/1.0.0": {
+        "dependencies": {
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.5"
+        },
         "runtime": {
           "NetCoreAPIMySQL.Model.dll": {}
         }
@@ -482,6 +488,13 @@
       "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kaa1rBZdJFq5A0qgAcl6Bmk/UqLXTq9acEqxUlPEBA8oscmakLfkvuSXfG7Wa9t1/keaT85EuuDNgOo+Z9VYOQ==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.19.5",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
     },
     "Microsoft.Win32.SystemEvents/4.7.0": {
       "type": "package",

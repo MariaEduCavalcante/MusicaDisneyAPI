@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dc1B+hQkWLxb+XGVxpnfWqNiaep2O34weJ+KNC0j344gmBWRwnQjHL9v6v9+0yPeB07CLvXEXWNkEZ/rwbmPvA==",
+  "dgSpecHash": "HBjdrD+bT2kfyJxSswEhiZ9nl34K4JrT2ShbhSoV0wkWo2SkgyHvRLIyAtHs2LhPWmMWjdmL5dI/KlOL8B1GsQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\dudin\\Documents\\GitHub\\MusicaDisneyAPI\\NetCoreAPIMySQL.Data\\NetCoreAPIMySQL.Data.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\dudin\\.nuget\\packages\\k4os.hash.xxhash\\1.0.8\\k4os.hash.xxhash.1.0.8.nupkg.sha512",
     "C:\\Users\\dudin\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\dudin\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\dudin\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "C:\\Users\\dudin\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\dudin\\.nuget\\packages\\mysql.data\\8.1.0\\mysql.data.8.1.0.nupkg.sha512",
     "C:\\Users\\dudin\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",

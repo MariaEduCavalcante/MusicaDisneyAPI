@@ -63,3 +63,4 @@ C:\Users\dudin\Documents\GitHub\MusicaDisneyAPI\MusicDisneyAPI\obj\Debug\net6.0\
 C:\Users\dudin\Documents\GitHub\MusicaDisneyAPI\MusicDisneyAPI\obj\Debug\net6.0\MusicDisneyAPI.pdb
 C:\Users\dudin\Documents\GitHub\MusicaDisneyAPI\MusicDisneyAPI\obj\Debug\net6.0\MusicDisneyAPI.genruntimeconfig.cache
 C:\Users\dudin\Documents\GitHub\MusicaDisneyAPI\MusicDisneyAPI\obj\Debug\net6.0\ref\MusicDisneyAPI.dll
+C:\Users\dudin\Documents\GitHub\MusicaDisneyAPI\MusicDisneyAPI\bin\Debug\net6.0\launchSettings.json
