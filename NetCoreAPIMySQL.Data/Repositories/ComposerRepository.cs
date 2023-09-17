@@ -101,7 +101,7 @@ namespace NetCoreAPIMySQL.Data.Repositories
             var db = dbConnection();
 
             var sql = @"
-                        SELECT IdSong, NameSong, NameFilm, NameComposer, Duration, TrackNumber, CoverURL, ImgURL, Premiere, SongURL 
+                        SELECT NameSong, NameFilm, NameComposer, Duration, TrackNumber, CoverURL, ImgURL, Premiere, SongURL 
                         FROM tbFilm,tbComposer, tbSong
                         WHERE tbFilm.IdFilm = tbSong.Film AND tbComposer.IdComposer = tbSong.Composer;";
             return await db.QueryAsync<Song>(sql, new { });
@@ -112,7 +112,7 @@ namespace NetCoreAPIMySQL.Data.Repositories
             var db = dbConnection();
 
             var sql = @"
-                        SELECT IdSong, NameSong, NameFilm, NameComposer, Duration, TrackNumber, CoverURL, ImgURL, Premiere, SongURL 
+                        SELECT NameSong, NameFilm, NameComposer, Duration, TrackNumber, CoverURL, ImgURL, Premiere, SongURL 
                         FROM tbFilm,tbComposer, tbSong
                         WHERE tbFilm.IdFilm = tbSong.Film AND tbComposer.IdComposer = tbSong.Composer
                         AND tbFilm.NameFilm = @Name ";
@@ -125,9 +125,9 @@ namespace NetCoreAPIMySQL.Data.Repositories
             var db = dbConnection();
 
             var sql = @"
-                        SELECT IdFavorites, Song, NameSong, LastUPDATE, SongURL, Duration
+                        SELECT IdFavorites, Song, LastUPDATE, SongURL, Duration
                         FROM tbFavorites,tbSong
-                        WHERE tbFavorites.Song = tbSong.IdSong";
+                        WHERE tbFavorites.Song = tbSong.NameSong";
             return await db.QueryAsync<Favorites>(sql, new { });
         }
 

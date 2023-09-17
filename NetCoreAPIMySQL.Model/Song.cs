@@ -8,7 +8,6 @@ namespace NetCoreAPIMySQL.Model
 {
     public class Song
     {
-        public int IdSong { get; set; }
         public string NameSong { get; set; }
         public string NameFilm { get; set; }
         public string NameComposer { get; set; }

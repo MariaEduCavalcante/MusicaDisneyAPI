@@ -57,8 +57,7 @@ insert into tbComposer(NameComposer, LastName, Birth, ImgComposerURL)
 
 /*SONG*/
 create table tbSong(
-IdSong int primary key auto_increment,
-NameSong varchar(50) not null,
+NameSong varchar(50) primary key,
 Film int,
 Composer int,
 Duration varchar(10) not null,
@@ -122,9 +121,9 @@ insert into tbSong(NameSong, Film, Composer, Duration, TrackNumber, SongURL)
 /*FAVORITES*/
 create table tbFavorites(
 IdFavorites int primary key,
-Song int,
+Song varchar(50),
 LastUPDATE date,
-foreign key (Song) references tbSong(IdSong)
+foreign key (Song) references tbSong(NameSong)
 );
 insert into tbFavorites(IdFavorites, LastUPDATE)
     values(1,curdate()),
