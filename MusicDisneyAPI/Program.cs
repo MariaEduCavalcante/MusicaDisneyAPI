@@ -1,5 +1,6 @@
-using NetCoreAPIMySQL.Data;
-using NetCoreAPIMySQL.Data.Repositories;
+
+
+using MusicDisneyAPI;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 var mySQLConnectionConfig = new MySQLConfiguration(builder.Configuration.GetConnectionString("MySqlConnection"));
 builder.Services.AddSingleton(mySQLConnectionConfig);
 
-builder.Services.AddScoped<IComposerRepository, ComposerRepository>();
+builder.Services.AddScoped<IEducationRepository, EducationRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using NetCoreAPIMySQL.Data.Repositories;
-using NetCoreAPIMySQL.Model;
+using MusicDisneyAPI.Models;
 
 namespace MusicDisneyAPI.Controllers
 {
@@ -9,9 +8,9 @@ namespace MusicDisneyAPI.Controllers
     [ApiController]
     public class FilmController : ControllerBase
     {
-        private readonly IComposerRepository _composerRepository;
+        private readonly IEducationRepository _composerRepository;
 
-        public FilmController(IComposerRepository composerRepository)
+        public FilmController(IEducationRepository composerRepository)
         {
             _composerRepository = composerRepository;
         }

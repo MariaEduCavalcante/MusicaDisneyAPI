@@ -649,35 +649,6 @@
         "runtime": {
           "lib/net6.0/ZstdSharp.dll": {}
         }
-      },
-      "NetCoreAPIMySQL.Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Dapper": "2.0.151",
-          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.5",
-          "MySql.Data": "8.1.0",
-          "NetCoreAPIMySQL.Model": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/NetCoreAPIMySQL.Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NetCoreAPIMySQL.Data.dll": {}
-        }
-      },
-      "NetCoreAPIMySQL.Model/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.5"
-        },
-        "compile": {
-          "bin/placeholder/NetCoreAPIMySQL.Model.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NetCoreAPIMySQL.Model.dll": {}
-        }
       }
     }
   },
@@ -2137,24 +2108,13 @@
         "zstdsharp.port.0.7.1.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
-    },
-    "NetCoreAPIMySQL.Data/1.0.0": {
-      "type": "project",
-      "path": "../NetCoreAPIMySQL.Data/NetCoreAPIMySQL.Data.csproj",
-      "msbuildProject": "../NetCoreAPIMySQL.Data/NetCoreAPIMySQL.Data.csproj"
-    },
-    "NetCoreAPIMySQL.Model/1.0.0": {
-      "type": "project",
-      "path": "../NetCoreAPIMySQL.Model/NetCoreAPIMySQL.Model.csproj",
-      "msbuildProject": "../NetCoreAPIMySQL.Model/NetCoreAPIMySQL.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Dapper >= 2.0.151",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.19.5",
       "MySql.Data >= 8.1.0",
-      "NetCoreAPIMySQL.Data >= 1.0.0",
-      "NetCoreAPIMySQL.Model >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -2185,14 +2145,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\dudin\\Documents\\GitHub\\MusicaDisneyAPI\\NetCoreAPIMySQL.Data\\NetCoreAPIMySQL.Data.csproj": {
-              "projectPath": "C:\\Users\\dudin\\Documents\\GitHub\\MusicaDisneyAPI\\NetCoreAPIMySQL.Data\\NetCoreAPIMySQL.Data.csproj"
-            },
-            "C:\\Users\\dudin\\Documents\\GitHub\\MusicaDisneyAPI\\NetCoreAPIMySQL.Model\\NetCoreAPIMySQL.Model.csproj": {
-              "projectPath": "C:\\Users\\dudin\\Documents\\GitHub\\MusicaDisneyAPI\\NetCoreAPIMySQL.Model\\NetCoreAPIMySQL.Model.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -2205,6 +2158,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.0.151, )"
+          },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.19.5, )"
