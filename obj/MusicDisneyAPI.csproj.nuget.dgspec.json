@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ds\\NamoLinda\\MusicaDisneyAPI\\MusicDisneyAPI.csproj": {}
+    "C:\\Users\\dudin\\Documents\\GitHub\\MusicaDisneyAPI\\MusicDisneyAPI.csproj": {}
   },
   "projects": {
-    "C:\\ds\\NamoLinda\\MusicaDisneyAPI\\MusicDisneyAPI.csproj": {
+    "C:\\Users\\dudin\\Documents\\GitHub\\MusicaDisneyAPI\\MusicDisneyAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ds\\NamoLinda\\MusicaDisneyAPI\\MusicDisneyAPI.csproj",
+        "projectUniqueName": "C:\\Users\\dudin\\Documents\\GitHub\\MusicaDisneyAPI\\MusicDisneyAPI.csproj",
         "projectName": "MusicDisneyAPI",
-        "projectPath": "C:\\ds\\NamoLinda\\MusicaDisneyAPI\\MusicDisneyAPI.csproj",
-        "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
-        "outputPath": "C:\\ds\\NamoLinda\\MusicaDisneyAPI\\obj\\",
+        "projectPath": "C:\\Users\\dudin\\Documents\\GitHub\\MusicaDisneyAPI\\MusicDisneyAPI.csproj",
+        "packagesPath": "C:\\Users\\dudin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dudin\\Documents\\GitHub\\MusicaDisneyAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\João\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dudin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -76,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

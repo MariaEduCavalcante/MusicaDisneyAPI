@@ -16,6 +16,8 @@ namespace MusicDisneyAPI.Models
         public string CoverURL { get; set; }
         public string ImgURL { get; set; }
         public int Premiere { get; set; }
-
+        public string SongURL { get; set; }
+        public string Category { get; set; }
+        public string Director { get; set; }
     }
 }

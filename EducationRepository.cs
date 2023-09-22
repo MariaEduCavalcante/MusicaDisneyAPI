@@ -96,7 +96,7 @@ public class EducationRepository : IEducationRepository
         var db = dbConnection();
 
         var sql = @"
-                        SELECT NameSong, NameFilm, NameComposer, Duration, TrackNumber, CoverURL, ImgURL, Premiere, SongURL 
+                        SELECT NameSong, NameFilm, NameComposer, Duration, TrackNumber, CoverURL, ImgURL, Premiere, SongURL, Director
                         FROM tbFilm,tbComposer, tbSong
                         WHERE tbFilm.IdFilm = tbSong.Film AND tbComposer.IdComposer = tbSong.Composer;";
         return await db.QueryAsync<Song>(sql, new { });
@@ -107,9 +107,9 @@ public class EducationRepository : IEducationRepository
         var db = dbConnection();
 
         var sql = @"
-                        SELECT NameSong, NameFilm, NameComposer, Duration, TrackNumber, CoverURL, ImgURL, Premiere, SongURL 
-                        FROM tbFilm,tbComposer, tbSong
-                        WHERE tbFilm.IdFilm = tbSong.Film AND tbComposer.IdComposer = tbSong.Composer
+                        SELECT NameSong, NameFilm, NameComposer, Duration, TrackNumber, CoverURL, ImgURL, Premiere, SongURL, Category, Director
+                        FROM tbFilm,tbComposer, tbSong, tbStyle
+                        WHERE tbFilm.IdFilm = tbSong.Film AND tbComposer.IdComposer = tbSong.Composer AND tbStyle.IdStyle = tbFilm.IdStyle
                         AND tbFilm.NameFilm = @Name ";
         return await db.QueryAsync<Song>(sql, new { Name = name });
     }
